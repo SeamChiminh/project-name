@@ -1,0 +1,126 @@
+.cart_dropdown {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  width: 320px;
+  background: linear-gradient(135deg, #ffffff, #f9f9f9);
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cart_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.cart_item_details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.cart_item_details span:first-child {
+  font-weight: 500;
+}
+
+.cart_item_details span:last-child {
+  font-size: 12px;
+  color: #999;
+}
+
+.cart_item_controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity_button {
+  width: 36px;
+  height: 36px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  line-height: 36px;
+  transition: all 0.3s ease;
+}
+
+.quantity_button:hover {
+  background: #d4d4d4;
+  transform: scale(1.1);
+}
+
+.cart_total {
+  text-align: right;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #444;
+}
+
+.cart_total strong {
+  color: #000;
+}
+
+.cart_dropdown h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cart_dropdown p {
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cart_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.close_button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close_button:hover {
+  color: #333;
+}
+
+.delete_button {
+  background: none;
+  border: none;
+  color: #ff6b6b;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.delete_button:hover {
+  color: #ff0000;
+}
